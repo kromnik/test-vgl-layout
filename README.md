@@ -4,4 +4,4 @@
 
 ## Ссылка на проект
 
-* []
+* [https://kromnik.github.io/test-vgl-layout/]
