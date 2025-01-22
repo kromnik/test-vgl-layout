@@ -1,0 +1,30 @@
+.page {
+  max-width: 1920px;
+  min-width: 390px;
+  min-height: 100vh;
+  /* width: 1920px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 1919px) {
+  .page {
+    max-width: 1600px;
+  } 
+}
+
+@media screen and (max-width: 1599px) {
+  .page {
+    max-width: 768px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 390px;
+  } 
+}

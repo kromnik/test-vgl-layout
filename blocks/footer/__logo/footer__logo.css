@@ -1,0 +1,31 @@
+.footer__logo {
+  grid-area: footer-logo;
+  margin-top: 1px;
+  width: 239px;
+  height: 62.1px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1919px) {
+  .footer__logo {
+    margin-top: 4px;
+    width: 217px;
+    height: 56.38px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .footer__logo {
+    margin-top: 0;
+    width: 180px;
+    height: 46.77px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    margin-left: 4px;
+  }
+}
+

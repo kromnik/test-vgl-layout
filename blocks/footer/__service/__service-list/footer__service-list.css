@@ -1,0 +1,22 @@
+.footer__service-list {
+  margin: 20px 0 2px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1599px) {
+  .footer__service-list {
+    margin-bottom: 0;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__service-list {
+    gap: 20px;
+  }
+}

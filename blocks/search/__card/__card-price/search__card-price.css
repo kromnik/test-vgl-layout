@@ -1,0 +1,31 @@
+.search__card-price {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30.8px;
+  color: #231815;
+}
+
+.search__card-price_type_discount {
+  color:#E45302;
+}
+
+.search__card-price_type_previous {
+  margin-left: 16px;
+  font-weight: 600;
+  color: #808080;
+  text-decoration-line: line-through;
+}
+
+@media screen and (max-width: 767px) {
+  .search__card-price {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .search__card-price_type_previous {
+    margin-left: 10px;
+  }
+}

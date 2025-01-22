@@ -1,0 +1,28 @@
+.header__search {
+  display: flex;
+  align-items: center;
+  margin-left: 132.5px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 170px;
+  min-height: 39px;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  border-radius: 88.64px;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__search {
+    margin-left: 180.5px;
+    width: 39px;
+    height: 39px;
+    background: #231815;
+    border: 0;
+  } 
+}
+
+@media screen and (max-width: 1599px) {
+  .header__search {
+    display: none;
+  } 
+}

@@ -1,0 +1,33 @@
+.header__menu-burger {
+  margin-left: 498.68px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  cursor: pointer;
+  background-image: url(../../../images/icons/burger-menu-icon.svg);
+  background-repeat: no-repeat;
+  display: none;
+}
+
+@media screen and (max-width: 1599px) {
+  .header__menu-burger {
+    display: block;
+    margin-left: 498.68px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    background-image: url(../../../images/icons/burger-menu-icon.svg);
+    background-repeat: no-repeat; 
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-burger {
+    margin-left: 138.68px;
+  } 
+}

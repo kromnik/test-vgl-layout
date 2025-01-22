@@ -1,0 +1,33 @@
+.footer__service {
+  grid-area: footer-service;
+  display: flex;
+  flex-direction: column;
+  margin-left: 149px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 140px;
+  height: 198px;
+}
+
+@media screen and (max-width: 1919px) {
+  .footer__service {
+    margin-left: 82px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .footer__service {
+    margin-top: 33.23px;
+    margin-left: 42px;
+    height: 238px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__service {
+    margin-top: 30px;
+    margin-left: 0;
+    height: 198px;
+  }
+}
+

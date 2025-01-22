@@ -1,0 +1,28 @@
+.search__card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 565px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1919px) {
+  .search__card {
+    width: 287px;
+    height: 516px;
+  } 
+}
+
+@media screen and (max-width: 1599px) {
+  .search__card {
+    width: 320px;
+    height: 565px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .search__card {
+    width: 155px;
+    height: 320px;
+  } 
+}

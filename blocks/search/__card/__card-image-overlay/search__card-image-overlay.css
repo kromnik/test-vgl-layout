@@ -1,0 +1,33 @@
+.search__card-image-overlay {
+  position: absolute;
+  top: 389px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0px 0px 20px 20px;
+  background: #F5F5F5B2;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.search__card:hover .search__card-image-overlay {
+  opacity: 70%;
+}
+
+@media screen and (max-width: 1919px) {
+  .search__card-image-overlay {
+    top: 341px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .search__card-image-overlay {
+    top: 389px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .search__card-image-overlay {
+    display: none;
+  }
+}

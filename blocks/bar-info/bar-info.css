@@ -1,0 +1,23 @@
+.bar-info {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 1220px;
+  padding-right: 260px;
+  box-sizing: border-box;
+  background: #231815;
+}
+
+@media screen and (max-width: 1919px) {
+  .bar-info {
+    padding-left: 980px;
+    padding-right: 180px;
+  } 
+}
+
+@media screen and (max-width: 1599px) {
+  .bar-info {
+    display: none;
+  } 
+}

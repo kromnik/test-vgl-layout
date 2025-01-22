@@ -1,0 +1,32 @@
+.footer__adress {
+  grid-area: footer-adress;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 109px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 245px;
+  height: 62px;
+}
+
+@media screen and (max-width: 1919px) {
+  .footer__adress {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .footer__adress {
+    margin: 33.23px 0 0;
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__adress {
+    margin-top: 34.23px;
+    width: 245px;
+    height: 52px;
+  }
+}

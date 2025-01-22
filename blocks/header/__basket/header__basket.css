@@ -1,0 +1,24 @@
+.header__basket {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 138px;
+  height: 39px;
+  background: #000000;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__basket {
+    margin-left: 23px;
+  }  
+}
+
+@media screen and (max-width: 1599px) {
+  .header__basket {
+    display: none;
+  } 
+}

@@ -1,0 +1,19 @@
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 242.5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__menu {
+    margin-left: 163.5px;
+  } 
+}
+
+@media screen and (max-width: 1599px) {
+  .header__menu {
+    display: none;
+  } 
+}

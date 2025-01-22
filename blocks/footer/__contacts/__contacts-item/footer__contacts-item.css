@@ -1,0 +1,15 @@
+.footer__contacts-item {
+  display: block;
+  margin-bottom: 25px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #F5F5F5;
+}
+
+.footer__contacts-item:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,26 @@
+.search__card-action {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  padding: 8px 39.5px;
+  box-sizing: border-box;
+  width: 126px;
+  height: 38px;
+  background: #231815;
+  color: #FFFFFF;
+  border-radius: 100px;
+  font-weight: 600;
+  line-height: 22.4px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 767px) {
+  .search__card-action {
+    padding: 2px 14.5px;
+    width: 70px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}

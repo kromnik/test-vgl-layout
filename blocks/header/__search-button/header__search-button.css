@@ -1,0 +1,22 @@
+.header__search-button {
+  display: flex;
+  align-items: center;
+  margin-right: 13.73px;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 21.27px;
+  min-height: 21.27px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  background-image: url('../../../images/icons/search-button-icon-normal.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__search-button {
+    margin-right: 0;
+    background-image: url('../../../images/icons/search-button-icon-white.svg');
+  }  
+}

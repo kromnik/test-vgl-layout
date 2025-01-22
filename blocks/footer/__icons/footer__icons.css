@@ -1,0 +1,27 @@
+.footer__icons {
+  grid-area: footer-icons;
+  margin-top: 72px;
+  margin-left: 218px;
+  padding: 0;
+  box-sizing: border-box;
+  width: 214.76px;
+  height: 31px;
+}
+
+@media screen and (max-width: 1919px) {
+  .footer__icons {
+    margin-left: 165px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .footer__icons {
+    margin: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__icons {
+    margin-top: 72px;
+  }
+}

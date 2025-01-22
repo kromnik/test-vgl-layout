@@ -1,0 +1,8 @@
+.header__basket-counter-icon {
+  position: absolute;
+  top: 3px;
+  left: 36px;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}

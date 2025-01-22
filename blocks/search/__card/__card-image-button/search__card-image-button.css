@@ -1,0 +1,46 @@
+.search__card-image-button {
+  position: absolute;
+  top: 409px;
+  left: 31px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  width: 258px;
+  height: 48px;
+  border-radius: 100px;
+  background: #E45302;
+  color: #FFFFFF;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity .4s;
+  cursor: pointer;
+}
+
+.search__card:hover .search__card-image-button {
+  opacity: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+  .search__card-image-button {
+    top: 361px;
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .search__card-image-button {
+    top: 409px;
+    left: 31px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .search__card-image-button {
+    display: none;
+  }
+}
