@@ -3,26 +3,12 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 60px;
-  padding: 0 260px;
+  padding: 0;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 1919px) {
-  .search__container {
-    padding: 0 180px;
-  } 
-}
-
-@media screen and (max-width: 1599px) {
-  .search__container {
-    margin-bottom: 60px;
-    padding: 0 44px;
-  } 
 }
 
 @media screen and (max-width: 767px) {
   .search__container {
     margin-bottom: 40px;
-    padding: 0 35px;
   } 
 }

@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
-  height: 477px;
+  max-width: 320px;
+  max-height: 477px;
+  object-fit: cover;
   transition: transform .4s;
 }
 
@@ -13,18 +14,18 @@
 
 @media screen and (max-width: 1919px) {
   .search__card-image-photo {
-    height: 428px;
+    max-height: 428px;
   } 
 }
 
 @media screen and (max-width: 1599px) {
   .search__card-image-photo {
-    height: 477px;
+    max-height: 477px;
   } 
 }
 
 @media screen and (max-width: 767px) {
   .search__card-image-photo {
-    height: 230px;
+    max-height: 230px;
   } 
 }

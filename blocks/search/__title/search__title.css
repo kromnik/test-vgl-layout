@@ -1,6 +1,7 @@
 .search__title {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  max-width: 651px;
+  max-height: 62px;
+  margin: 60px 0 40px 260px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Korataki';
@@ -11,6 +12,9 @@
 
 @media screen and (max-width: 1919px) {
   .search__title {
+    max-width: 592px;
+    max-height: 56px;
+    margin-left: 180px;
     font-size: 40px;
     line-height: 56px;
   } 
@@ -18,7 +22,10 @@
 
 @media screen and (max-width: 1599px) {
   .search__title {
+    max-width: 474px;
+    max-height: 45px;
     margin-top: 50px;
+    margin-left: 44px;
     font-size: 32px;
     line-height: 44.8px;
   } 
@@ -26,8 +33,9 @@
 
 @media screen and (max-width: 767px) {
   .search__title {
-    margin-top: 40px;
-    margin-bottom: 24px;
+    max-width: 229px;
+    max-height: 68px;
+    margin: 40px 0 24px 35px;
     font-size: 24px;
     line-height: 33.6px;
   } 

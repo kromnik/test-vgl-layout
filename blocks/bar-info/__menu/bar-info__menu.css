@@ -1,0 +1,13 @@
+.bar-info__menu {
+  display: flex;
+  align-items: center;
+  margin-right: 260px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1919px) {
+  .bar-info__menu {
+    margin-right: 180px;
+  } 
+}
